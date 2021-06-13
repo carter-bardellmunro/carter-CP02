@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheets" href="styles.css">
+  <title>Repsonsive Design</title>
+  <style>
+    .center {
+      text-align: center;
+    }
+
+
+  .bg-change {
+    background: #C00000;
+  }
+  @media screen and (min-width: 600px) {
+    .bg-change {
+    background: #00CC00;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .bg-change {
+    background: #0000CC;
+    }
+  }
+
+
+  .grit {
+    display: block;  
+  }
+  @media screen and (min-width: 600px) {
+    .grit {
+      display: none;
+    }
+  }
+
+  .oldmen {
+    display: none;  
+  }
+  @media screen and (min-width: 600px) {
+    .oldmen {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .oldmen {
+      display: none;
+    }
+  }
+
+  .lebowski {
+    display: none;  
+  }
+  @media screen and (min-width: 1200px) {
+    .lebowski {
+      display: block;
+    }
+  }
+
+
+  </style>
+</head>
+<body class="bg-change">
+
+  <div class="center">
+    <h1>The Coen Brothers</h1>
+  </div>
+
+  <div>
+    <div class="center lebowski">
+      <h2>The Big Lewbowski</h2>  
+      <p>Two goons mistake 'the Dude' Lebowski for a millionaire Lebowski and urinate on his rug. Trying to recompense his rug from the wealthy Lebowski, he gets entwined in an intricate kidnapping case.</p>
+    </div>
+
+    <div class="center oldmen">
+      <h2>No Country for Old Men</h2>  
+      <p>A hunter's life takes a drastic turn when he discovers two million dollars while strolling through the aftermath of a drug deal. He is then pursued by a psychopathic killer who wants the money.</p>
+    </div>
+
+    <div class="center grit">
+      <h2>True Grit</h2>  
+      <p>On a mission to find her father's killer, a 14-year-old girl and the US Marshall she hires are joined by a Texas Ranger. The trio's true grit is tested as they embark on a quest for justice.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
